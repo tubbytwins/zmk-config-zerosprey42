@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: glebsexy
+      url-base: https://github.com/glebsexy
+  projects:
+    - name: zmk
+      remote: glebsexy
+      revision: rp2040-zero-plus-combos-fix
+      import: app/west.yml
+  self:
+    path: config
